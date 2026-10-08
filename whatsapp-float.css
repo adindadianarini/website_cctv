@@ -1,0 +1,101 @@
+.floating-whatsapp {
+  position: fixed;
+  z-index: 1000;
+  right: 14px;
+  bottom: 20px;
+  width: 220px;
+  height: 44px;
+  display: flex;
+  align-items: center;
+  padding: 0 49px 0 58px;
+  border: 1px solid #c99a4a;
+  border-radius: 30px;
+  color: #f5d78e;
+  background: #17130f;
+  box-shadow: 0 5px 18px rgba(0,0,0,.2);
+  font-family: "Segoe UI", Arial, sans-serif;
+  font-size: 12.5px;
+  font-weight: 600;
+  white-space: nowrap;
+  transition: background .2s ease, box-shadow .2s ease, transform .2s ease;
+}
+.floating-whatsapp:hover {
+  transform: translateY(-2px);
+  background: #292116;
+  box-shadow: 0 8px 22px rgba(0,0,0,.25);
+}
+.floating-whatsapp:focus-visible {
+  outline: 3px solid #d4ad37;
+  outline-offset: 3px;
+}
+.floating-whatsapp::before {
+  position: absolute;
+  top: calc(50% - 12px);
+  left: -5px;
+  width: 72px;
+  height: 72px;
+  background: url("assets/maskot_cs.png") center / contain no-repeat;
+  content: "";
+  pointer-events: none;
+  transform: translateY(-50%);
+}
+.floating-whatsapp-icon {
+  overflow: hidden;
+  position: absolute;
+  top: 0;
+  right: -7px;
+  width: 44px;
+  height: 44px;
+  display: grid;
+  place-items: center;
+  border: 2px solid #d5ad65;
+  border-radius: 50%;
+  color: #f5d78e;
+  background-color: #17130f;
+}
+.floating-whatsapp-icon svg {
+  display: none;
+}
+.floating-whatsapp-icon {
+  background-image: url("assets/wa.logo.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 150% 150%;
+}
+.floating-whatsapp-mascot {
+  position: absolute;
+  top: 50%;
+  left: 7px;
+  width: 39px;
+  height: 39px;
+  object-fit: contain;
+  transform: translateY(-50%);
+  pointer-events: none;
+}
+.floating-whatsapp > span:first-child {
+  margin-left: 0;
+}
+.whatsapp-icon,
+.hero-whatsapp-icon {
+  width: 23px;
+  height: 23px;
+  overflow: hidden;
+  border-radius: 50%;
+  background: url("assets/wa.logo.jpg") center / 138% 138% no-repeat;
+}
+.whatsapp-icon svg,
+.hero-whatsapp-icon svg,
+.sidebar-whatsapp svg {
+  display: none;
+}
+.sidebar-whatsapp::before {
+  width: 16px;
+  height: 16px;
+  flex: none;
+  border-radius: 50%;
+  background: url("assets/wa.logo.jpg") center / 138% 138% no-repeat;
+  content: "";
+}
+@media(max-width:520px) {
+  .floating-whatsapp { right: 10px; bottom: 16px; }
+}

@@ -1,0 +1,774 @@
+﻿<!DOCTYPE html>
+
+<html class="scroll-smooth" lang="id"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<meta content="#101011" name="theme-color"/>
+<meta content="Layanan pemasangan CCTV profesional dengan garansi resmi, teknisi bersertifikat, dan pilihan paket lengkap." name="description"/>
+<title>Pasang CCTV | SatuAtapNusantara.com</title>
+<!-- Material Symbols Outlined -->
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<!-- Tailwind CSS v3 -->
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<!-- Tailwind Configuration -->
+<script id="tailwind-config">
+    tailwind.config = {
+      darkMode: "class",
+      theme: {
+        extend: {
+          "colors": {
+            "primary-container": "#131a33",
+            "on-background": "#0d1c2f",
+            "background": "#f8f9ff",
+            "secondary": "#ba0035",
+            "primary-fixed": "#dbe1ff",
+            "surface-container-highest": "#d5e3fd",
+            "surface-dim": "#ccdbf4",
+            "surface-tint": "#565d79",
+            "outline": "#76767e",
+            "tertiary-fixed": "#ffdcc3",
+            "surface-container-low": "#eff4ff",
+            "on-surface-variant": "#45464d",
+            "on-secondary-fixed": "#40000c",
+            "tertiary-container": "#2f1500",
+            "tertiary-fixed-dim": "#ffb77d",
+            "on-secondary-container": "#fffbff",
+            "surface-container-high": "#dde9ff",
+            "outline-variant": "#c6c6ce",
+            "on-error": "#ffffff",
+            "surface-container-lowest": "#ffffff",
+            "surface-container": "#e6eeff",
+            "on-tertiary-fixed": "#2f1500",
+            "on-tertiary-container": "#c76c00",
+            "on-primary": "#ffffff",
+            "inverse-on-surface": "#ebf1ff",
+            "on-secondary": "#ffffff",
+            "on-surface": "#0d1c2f",
+            "on-tertiary": "#ffffff",
+            "error": "#ba1a1a",
+            "secondary-container": "#e21e49",
+            "on-primary-fixed-variant": "#3e4660",
+            "primary": "#000000",
+            "tertiary": "#000000",
+            "surface-variant": "#d5e3fd",
+            "error-container": "#ffdad6",
+            "surface-bright": "#f8f9ff",
+            "inverse-surface": "#233144",
+            "inverse-primary": "#bec5e5",
+            "on-tertiary-fixed-variant": "#6e3900",
+            "secondary-fixed": "#ffdada",
+            "on-error-container": "#93000a",
+            "on-primary-container": "#7b83a0",
+            "primary-fixed-dim": "#bec5e5",
+            "surface": "#f8f9ff",
+            "on-primary-fixed": "#131a33",
+            "secondary-fixed-dim": "#ffb3b6",
+            "on-secondary-fixed-variant": "#920028"
+          },
+          "borderRadius": {
+            "DEFAULT": "0.125rem",
+            "lg": "0.25rem",
+            "xl": "0.5rem",
+            "full": "0.75rem"
+          },
+          "spacing": {
+            "space-3xs": "0.25rem",
+            "space-xl": "2rem",
+            "container-max-width": "1200px",
+            "space-xs": "0.5rem",
+            "space-lg": "1.5rem",
+            "space-2xl": "3rem",
+            "space-sm": "0.75rem",
+            "gutter-mobile": "1rem",
+            "sidebar-width": "340px",
+            "space-3xl": "4rem",
+            "gutter-desktop": "2rem",
+            "space-2xs": "0.375rem",
+            "space-md": "1rem"
+          },
+          "fontFamily": {
+            "body-lg": ["Segoe UI", "Arial", "sans-serif"],
+            "label-caps": ["Segoe UI", "Arial", "sans-serif"],
+            "display-hero-mobile": ["Segoe UI", "Arial", "sans-serif"],
+            "body-sm": ["Segoe UI", "Arial", "sans-serif"],
+            "meta-time": ["Segoe UI", "Arial", "sans-serif"],
+            "label-md": ["Segoe UI", "Arial", "sans-serif"],
+            "title-card": ["Segoe UI", "Arial", "sans-serif"],
+            "display-hero": ["Segoe UI", "Arial", "sans-serif"],
+            "headline-lg-mobile": ["Segoe UI", "Arial", "sans-serif"],
+            "body-md": ["Segoe UI", "Arial", "sans-serif"],
+            "headline-lg": ["Segoe UI", "Arial", "sans-serif"],
+            "headline-sm": ["Segoe UI", "Arial", "sans-serif"],
+            "headline-md": ["Segoe UI", "Arial", "sans-serif"]
+          },
+          "fontSize": {
+            "body-lg": ["17px", { "lineHeight": "28px", "fontWeight": "400" }],
+            "label-caps": ["11px", { "lineHeight": "16px", "letterSpacing": "0.06em", "fontWeight": "700" }],
+            "display-hero-mobile": ["32px", { "lineHeight": "40px", "letterSpacing": "-0.02em", "fontWeight": "800" }],
+            "body-sm": ["13px", { "lineHeight": "20px", "fontWeight": "400" }],
+            "meta-time": ["12px", { "lineHeight": "16px", "fontWeight": "500" }],
+            "label-md": ["14px", { "lineHeight": "20px", "fontWeight": "600" }],
+            "title-card": ["20px", { "lineHeight": "28px", "letterSpacing": "-0.015em", "fontWeight": "700" }],
+            "display-hero": ["48px", { "lineHeight": "56px", "letterSpacing": "-0.03em", "fontWeight": "800" }],
+            "headline-lg-mobile": ["22px", { "lineHeight": "30px", "letterSpacing": "-0.01em", "fontWeight": "700" }],
+            "body-md": ["15px", { "lineHeight": "24px", "fontWeight": "400" }],
+            "headline-lg": ["30px", { "lineHeight": "38px", "letterSpacing": "-0.02em", "fontWeight": "700" }],
+            "headline-sm": ["18px", { "lineHeight": "26px", "letterSpacing": "-0.01em", "fontWeight": "600" }],
+            "headline-md": ["22px", { "lineHeight": "30px", "letterSpacing": "-0.015em", "fontWeight": "700" }]
+          }
+        }
+      }
+    }
+  </script>
+    <link rel="stylesheet" href="contact-section.css" />
+    <link rel="stylesheet" href="whatsapp-float.css" />
+    <link rel="stylesheet" href="footer-shared.css" />
+<style>
+  .pasang-site-header {
+    min-height: 76px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 28px;
+    padding: 0 max(6.5%, calc((100% - 1180px) / 2));
+    color: #f7f7f8;
+    background: #101011;
+    border-bottom: 1px solid rgba(255,255,255,.08);
+  }
+  .pasang-brand { flex: none; color: #f7f7f8; font-size: 1.08rem; font-weight: 750; letter-spacing: -.035em; }
+  .pasang-brand span { color: #f0d17a; }
+  .pasang-main-nav { display: flex; align-items: center; justify-content: flex-end; gap: clamp(13px, 2vw, 29px); }
+  .pasang-main-nav a { color: #d7d7da; font-size: .78rem; white-space: nowrap; transition: color .18s ease; }
+  .pasang-main-nav a:hover, .pasang-main-nav a[aria-current="page"] { color: #f0d17a; }
+  .pasang-main-nav a:focus-visible, .pasang-brand:focus-visible { outline: 2px solid #f0d17a; outline-offset: 4px; }
+  @media (max-width: 900px) {
+    .pasang-site-header { flex-direction: column; justify-content: center; gap: 13px; padding-top: 17px; padding-bottom: 17px; }
+    .pasang-main-nav { justify-content: center; flex-wrap: wrap; gap: 10px 20px; }
+  }
+  @media (max-width: 760px) {
+    .pasang-site-header { min-height: 44px; flex-direction: row; gap: 8px; padding: 7px 12px; }
+    .pasang-brand { font-size: .73rem; }
+    .pasang-main-nav { flex-wrap: nowrap; gap: 5px; }
+    .pasang-main-nav a { font-size: .52rem; }
+  }
+  @media (max-width: 520px) {
+    .pasang-site-header { height: 103px; min-height: 103px; flex-direction: column; gap: 12px; padding: 15px 14px; }
+    .pasang-brand { font-size: 1rem; }
+    .pasang-main-nav { flex-wrap: wrap; gap: 8px 15px; }
+    .pasang-main-nav a { font-size: .72rem; }
+  }
+</style>
+</head>
+<body class="bg-background text-on-surface antialiased font-body-md selection:bg-secondary-container selection:text-on-secondary">
+<!-- ================= TOP APP BAR ================= -->
+<header class="pasang-site-header">
+  <a class="pasang-brand" href="landing.html#top" aria-label="SatuAtapNusantara.com, kembali ke beranda">SatuAtapNusantara<span>.com</span></a>
+  <nav class="pasang-main-nav" aria-label="Navigasi utama">
+    <a href="#beranda" aria-current="page">Pasang CCTV</a>
+    <a href="harga.html">Harga Pasang CCTV</a>
+    <a href="pilihpaket.html">Pilih Paket</a>
+    <a href="daerah.html">Daerah Pemasangan</a>
+    <a href="blog.html">Blog</a>
+    <a href="landing.html#kontak">Kontak</a>
+  </nav>
+</header>
+<!-- ================= HERO SECTION ================= -->
+<section class="relative bg-[#0d121f] text-on-primary overflow-hidden pt-16 pb-20 lg:pt-24 lg:pb-28 border-b border-outline-variant/10" id="beranda"><div class="absolute inset-0 opacity-15 bg-[radial-gradient(#ffdcc3_1px,transparent_1px)] [background-size:24px_24px] pointer-events-none"></div><div class="absolute -top-32 -left-32 w-96 h-96 bg-amber-500/10 rounded-full blur-3xl pointer-events-none"></div><div class="absolute -bottom-32 right-0 w-96 h-96 bg-amber-400/5 rounded-full blur-3xl pointer-events-none"></div><div class="max-w-[1200px] mx-auto px-4 lg:px-8 relative z-10"><div class="grid grid-cols-1 lg:grid-cols-12 gap-12 lg:gap-16 items-center"><div class="lg:col-span-7 space-y-7"><div class="inline-flex items-center gap-2.5 px-3.5 py-1.5 rounded-full bg-white/5 border border-amber-400/25 text-amber-300 text-xs font-semibold backdrop-blur-sm tracking-wide"><span class="w-2 h-2 rounded-full bg-amber-400 animate-pulse"></span><span>SKEMA RESMI: PASANG DULU BARU BAYAR (DP 0%)</span></div><div class="space-y-4"><h1 class="text-3xl sm:text-4xl lg:text-5xl font-extrabold text-white tracking-tight leading-[1.2]">Solusi Pemasangan CCTV Profesional &amp; <span class="text-transparent bg-clip-text bg-gradient-to-r from-amber-300 via-amber-400 to-amber-200">Bergaransi Resmi</span></h1><p class="text-gray-300 text-base sm:text-lg leading-relaxed max-w-xl">Layanan instalasi kamera pengawas terstandarisasi untuk residensial, pergudangan, ritel, dan perkantoran. Nikmati jaminan tanpa risiko bayar setelah seluruh kamera online.</p></div><div class="grid grid-cols-2 gap-3 max-w-lg pt-1"><div class="flex items-center gap-2.5 p-2.5 rounded-lg bg-white/5 border border-white/10"><span class="material-symbols-outlined text-amber-400 text-lg" data-icon="check_circle">check_circle</span><span class="text-xs sm:text-sm text-gray-200 font-medium">0% DP (Bayar Pasca Pasang)</span></div><div class="flex items-center gap-2.5 p-2.5 rounded-lg bg-white/5 border border-white/10"><span class="material-symbols-outlined text-amber-400 text-lg" data-icon="shield">shield</span><span class="text-xs sm:text-sm text-gray-200 font-medium">Garansi Resmi 1-2 Tahun</span></div><div class="flex items-center gap-2.5 p-2.5 rounded-lg bg-white/5 border border-white/10"><span class="material-symbols-outlined text-amber-400 text-lg" data-icon="verified">verified</span><span class="text-xs sm:text-sm text-gray-200 font-medium">Teknisi Resmi Bersertifikat</span></div><div class="flex items-center gap-2.5 p-2.5 rounded-lg bg-white/5 border border-white/10"><span class="material-symbols-outlined text-amber-400 text-lg" data-icon="smartphone">smartphone</span><span class="text-xs sm:text-sm text-gray-200 font-medium">Online Streaming di HP</span></div></div><div class="flex flex-wrap items-center gap-4 pt-2"><a class="px-6 py-3.5 rounded-lg bg-gradient-to-r from-amber-400 to-amber-500 hover:from-amber-500 hover:to-amber-600 text-slate-950 font-bold text-sm tracking-wide transition-all shadow-lg flex items-center gap-2" href="https://wa.me/6282135576655?text=Halo%20SatuAtapNusantara,%20saya%20ingin%20konsultasi%20paket%20pasang%20CCTV"><span class="material-symbols-outlined text-lg" data-icon="chat">chat</span><span>Konsultasi WhatsApp Sekarang</span></a><a class="px-6 py-3.5 rounded-lg bg-white/5 hover:bg-white/10 text-white font-medium text-sm border border-white/15 transition-all" href="#paket-pasang">Lihat Pilihan Paket</a></div></div><div class="lg:col-span-5"><div class="relative rounded-2xl bg-white/5 p-4 sm:p-5 border border-white/10 shadow-2xl backdrop-blur-md"><div class="overflow-hidden rounded-xl aspect-video relative flex items-center justify-center bg-slate-900/80"><img class="w-full h-full object-cover" data-alt="SatuAtapNusantara professional CCTV surveillance installation kit display" src="https://lh3.googleusercontent.com/aida-public/AB6AXuC9o-WPUcgjiq59gYAn7L6fpIyMsyt_6f9Gav2d0jZ6LiGLaXKJcpsbm_h4ZQNTPWp8e5OAPpklFwp1CBbhEIDa0SaghyJMhc3lKx-aumkEzJyW0XTyORt3V1ZHQNPWNKxaqiND66qqH3TThiBt0_8YiULL8JtMTar1GmsI3agI0RyyhT5ppNQ4Ghu4JSiOXQGqB1Z05idBvy6GfOET7D7CPoyC4u_wlcu4DJvAAKY"/><div class="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent flex items-end p-4"><p class="text-xs sm:text-sm text-gray-200 font-medium">Paket Pemasangan CCTV Resmi â€¢ Dahua &amp; Hikvision</p></div></div><div class="mt-4 grid grid-cols-3 gap-2 text-center text-xs text-gray-300 pt-3 border-t border-white/10"><div><span class="block text-amber-400 font-bold text-sm">Full HD</span>Resolusi Tajam</div><div><span class="block text-amber-400 font-bold text-sm">100% Asli</span>Unit Terverifikasi</div><div><span class="block text-amber-400 font-bold text-sm">Free Cloud</span>Akses Selamanya</div></div></div></div></div></div></section>
+<!-- ================= PASANG DULU BARU BAYAR CALLOUT ================= -->
+<section class="bg-gradient-to-r from-amber-500 via-amber-400 to-amber-500 text-primary-container py-6 shadow-md border-y border-amber-600/20">
+<div class="max-w-[1200px] mx-auto px-4 lg:px-8 flex flex-col md:flex-row items-center justify-between gap-4">
+<div class="flex items-center gap-4">
+<div class="w-14 h-14 rounded-xl bg-primary-container text-amber-400 flex items-center justify-center shadow-lg shrink-0">
+<span class="material-symbols-outlined text-3xl" data-icon="credit_score">credit_score</span>
+</div>
+<div>
+<h2 class="text-headline-md font-headline-md font-extrabold tracking-tight">PASANG DULU BARU BAYAR!</h2>
+<p class="text-body-md font-medium text-primary-container/90">Tidak perlu cemas penipuan online. Teknisi pasang rapi, CCTV online di HP Anda, baru pembayaran ditransfer.</p>
+</div>
+</div>
+<a class="whitespace-nowrap px-6 py-3 bg-primary-container text-on-primary hover:bg-slate-900 rounded-lg text-label-md font-label-md transition-colors shadow-md" href="https://wa.me/6282135576655?text=Halo%20SatuAtapNusantara,%20saya%20ingin%20tanya%20skema%20Pasang%20Dulu%20Baru%20Bayar">
+        Konsultasi Skema Pembayaran
+      </a>
+</div>
+</section>
+<!-- ================= SEKTOR INSTALASI ================= -->
+<section class="py-20 bg-background" id="layanan">
+<div class="max-w-[1200px] mx-auto px-4 lg:px-8">
+<div class="text-center max-w-2xl mx-auto mb-14">
+<span class="text-label-caps font-label-caps text-secondary font-bold uppercase tracking-wider">Cakupan Layanan Presisi</span>
+<h2 class="text-headline-lg font-headline-lg text-on-surface mt-2">Melayani Pemasangan di Semua Tempat &amp; Fasilitas</h2>
+<p class="text-on-surface-variant text-body-md mt-3">Rancangan instalasi topologi kabel rapi dengan jalur pipa conduit khusus sesuai kebutuhan operasional properti Anda.</p>
+</div>
+<div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+<!-- Rumah Tinggal -->
+<div class="bg-surface-container-lowest p-6 rounded-xl border border-outline-variant/40 shadow-sm hover:shadow-md transition-all hover:-translate-y-1">
+<div class="w-12 h-12 rounded-lg bg-surface-container flex items-center justify-center mb-4 text-primary-container">
+<span class="material-symbols-outlined text-2xl" data-icon="home">home</span>
+</div>
+<h3 class="text-headline-sm font-headline-sm text-on-surface mb-2">Rumah Tinggal &amp; Villa</h3>
+<p class="text-body-sm font-body-sm text-on-surface-variant">Proteksi keluarga dan aset pribadi 24/7. Pemantauan area pagar luar, garasi mobil, taman, dan pintu utama secara tersembunyi namun efektif.</p>
+</div>
+<!-- Toko/Bisnis -->
+<div class="bg-surface-container-lowest p-6 rounded-xl border border-outline-variant/40 shadow-sm hover:shadow-md transition-all hover:-translate-y-1">
+<div class="w-12 h-12 rounded-lg bg-surface-container flex items-center justify-center mb-4 text-primary-container">
+<span class="material-symbols-outlined text-2xl" data-icon="storefront">storefront</span>
+</div>
+<h3 class="text-headline-sm font-headline-sm text-on-surface mb-2">Toko, Cafe &amp; Ritel Bisnis</h3>
+<p class="text-body-sm font-body-sm text-on-surface-variant">Kamera fokus sudut kasir untuk audit transaksi tunai, lorong display produk untuk menekan risiko pencurian, dan pemantauan kinerja staf.</p>
+</div>
+<!-- Kantor/Instansi -->
+<div class="bg-surface-container-lowest p-6 rounded-xl border border-outline-variant/40 shadow-sm hover:shadow-md transition-all hover:-translate-y-1">
+<div class="w-12 h-12 rounded-lg bg-surface-container flex items-center justify-center mb-4 text-primary-container">
+<span class="material-symbols-outlined text-2xl" data-icon="apartment">apartment</span>
+</div>
+<h3 class="text-headline-sm font-headline-sm text-on-surface mb-2">Kantor &amp; Instansi</h3>
+<p class="text-body-sm font-body-sm text-on-surface-variant">Integrasi CCTV untuk akses lobby, ruang rapat penting, koridor kerja, serta ruang server guna kepatuhan audit standar keamanan operasional.</p>
+</div>
+<!-- Gudang -->
+<div class="bg-surface-container-lowest p-6 rounded-xl border border-outline-variant/40 shadow-sm hover:shadow-md transition-all hover:-translate-y-1">
+<div class="w-12 h-12 rounded-lg bg-surface-container flex items-center justify-center mb-4 text-primary-container">
+<span class="material-symbols-outlined text-2xl" data-icon="warehouse">warehouse</span>
+</div>
+<h3 class="text-headline-sm font-headline-sm text-on-surface mb-2">Gudang &amp; Pabrik Logistik</h3>
+<p class="text-body-sm font-body-sm text-on-surface-variant">Kamera jarak jauh tahan debu &amp; cuaca (IP67) untuk memantau loading dock kontainer, stok palet logistik, dan jalur keselamatan kerja tim.</p>
+</div>
+<!-- Hotel & Apartemen -->
+<div class="bg-surface-container-lowest p-6 rounded-xl border border-outline-variant/40 shadow-sm hover:shadow-md transition-all hover:-translate-y-1">
+<div class="w-12 h-12 rounded-lg bg-surface-container flex items-center justify-center mb-4 text-primary-container">
+<span class="material-symbols-outlined text-2xl" data-icon="domain">domain</span>
+</div>
+<h3 class="text-headline-sm font-headline-sm text-on-surface mb-2">Hotel, Homestay &amp; Kost</h3>
+<p class="text-body-sm font-body-sm text-on-surface-variant">Memberikan rasa aman maksimal bagi para tamu dan penghuni kamar. Pengawasan area resepsionis, parkiran kendaraan bermotor, dan tangga darurat.</p>
+</div>
+<!-- Fasilitas Umum -->
+<div class="bg-surface-container-lowest p-6 rounded-xl border border-outline-variant/40 shadow-sm hover:shadow-md transition-all hover:-translate-y-1">
+<div class="w-12 h-12 rounded-lg bg-surface-container flex items-center justify-center mb-4 text-primary-container">
+<span class="material-symbols-outlined text-2xl" data-icon="foundation">foundation</span>
+</div>
+<h3 class="text-headline-sm font-headline-sm text-on-surface mb-2">Fasilitas Umum &amp; Sekolah</h3>
+<p class="text-body-sm font-body-sm text-on-surface-variant">Pengawasan area terbuka publik, tempat ibadah, gerbang perumahan kluster warga, dan institusi pendidikan demi memelihara ketertiban lingkungan.</p>
+</div>
+</div>
+</div>
+</section>
+<!-- ================= KATALOG PAKET PASANG CCTV ================= -->
+<section class="py-20 bg-surface-container-low border-y border-outline-variant/30" id="paket-pasang">
+<div class="max-w-[1200px] mx-auto px-4 lg:px-8">
+<div class="text-center max-w-3xl mx-auto mb-12">
+<span class="text-label-caps font-label-caps text-secondary-container font-bold uppercase tracking-wider">Katalog Harga &amp; Spesifikasi Lengkap</span>
+<h2 class="text-headline-lg font-headline-lg text-on-surface mt-2">Pilihan Paket Pasang CCTV Populer</h2>
+<p class="text-on-surface-variant text-body-md mt-2">Semua paket sudah termasuk unit kamera, DVR resolusi tinggi, HDD Surveillance, kabel, konektor, hingga jasa pasang dan konfigurasi ke HP.</p>
+</div>
+<!-- Pricing Comparison Grid: 2, 4, 6, 8 Kamera -->
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+<!-- PAKET 2 KAMERA -->
+<div class="bg-surface-container-lowest rounded-xl border border-outline-variant/40 overflow-hidden shadow-sm flex flex-col justify-between">
+<div>
+<div class="bg-primary-container text-on-primary py-3 px-4 text-center">
+<span class="text-headline-sm font-headline-sm">Paket CCTV 2 Kamera</span>
+</div>
+<div class="p-4 bg-surface-container-lowest border-b border-outline-variant/20 flex justify-center">
+<img class="h-36 object-contain" data-alt="A clean product layout showcase of a 2 camera security kit featuring bullet and dome cameras alongside a standalone digital video recorder and black coaxial cabling on a pure white background with subtle studio shadows." src="https://lh3.googleusercontent.com/aida-public/AB6AXuA6ZeGvuM2W_qiOKv3zdH0k-clvJv0PG88O_xavjOiarxgPTkQedgv4FoeX3ZmQHKK62yRvO3gNeSWtA4x38CNwClTuY8wbj8JFJVo-JWyi1FaAz1s2zurg_xdBPlykqccbERVmNnMiL3bUo6M0HY5_nV4M5Gc78TgBP2I337YYHNuk0UodrNa2chIUYiA73cJNftKXATwf2ldMCee4qfQYuCHxXxP6KU7eEL-TCkw"/>
+</div>
+<div class="p-5 space-y-3">
+<span class="text-label-caps font-label-caps text-on-surface-variant uppercase">Rincian Paket Lengkap:</span>
+<ul class="text-body-sm space-y-1.5 text-on-surface-variant">
+<li class="flex justify-between"><span>DVR Recorder:</span> <span class="font-semibold text-on-surface">4 Channel Full HD</span></li>
+<li class="flex justify-between"><span>Harddisk:</span> <span class="font-semibold text-on-surface">500 GB Surveillance</span></li>
+<li class="flex justify-between"><span>Power Supply:</span> <span class="font-semibold text-on-surface">1 Unit Adaptor Central</span></li>
+<li class="flex justify-between"><span>Konektor BNC:</span> <span class="font-semibold text-on-surface">4 Unit High Grade</span></li>
+<li class="flex justify-between"><span>Jack DC Male:</span> <span class="font-semibold text-on-surface">2 Unit</span></li>
+<li class="flex justify-between"><span>Kabel Coaxial:</span> <span class="font-semibold text-on-surface">45 Meter RG59</span></li>
+<li class="flex justify-between"><span>Jasa Instalasi:</span> <span class="text-emerald-700 font-bold">Termasuk</span></li>
+</ul>
+</div>
+</div>
+<div class="p-5 bg-surface-container border-t border-outline-variant/30 space-y-2">
+<div class="flex justify-between items-center text-body-sm font-medium">
+<span class="text-on-surface">Dahua</span>
+<span class="text-secondary font-bold">Rp 2.499.000</span>
+</div>
+<div class="flex justify-between items-center text-body-sm font-medium">
+<span class="text-on-surface">HiLook</span>
+<span class="text-secondary font-bold">Rp 2.599.000</span>
+</div>
+<div class="flex justify-between items-center text-body-sm font-medium">
+<span class="text-on-surface">Hikvision</span>
+<span class="text-secondary font-bold">Rp 3.599.000</span>
+</div>
+<a class="w-full mt-3 block text-center py-2 px-3 rounded bg-secondary-container hover:bg-secondary text-on-secondary text-label-md font-label-md transition-colors" href="https://wa.me/6282135576655?text=Halo%20SatuAtapNusantara,%20saya%20pesan%20Paket%202%20Kamera">
+              Pilih Paket 2 Kamera
+            </a>
+</div>
+</div>
+<!-- PAKET 4 KAMERA (HIGHLIGHT: PALING POPULER) -->
+<div class="bg-surface-container-lowest rounded-xl border-2 border-amber-500 overflow-hidden shadow-lg relative flex flex-col justify-between">
+<div class="absolute -top-0 right-4 bg-amber-500 text-primary-container px-3 py-1 rounded-b font-label-caps text-label-caps uppercase tracking-wider font-extrabold shadow-sm">
+            Best Seller
+          </div>
+<div>
+<div class="bg-primary-container text-on-primary py-3 px-4 text-center">
+<span class="text-headline-sm font-headline-sm text-amber-300">Paket CCTV 4 Kamera</span>
+</div>
+<div class="p-4 bg-surface-container-lowest border-b border-outline-variant/20 flex justify-center">
+<img class="h-36 object-contain" data-alt="A comprehensive studio render of a complete 4 camera CCTV system set including two outdoor bullet cameras and two indoor dome cameras with an enterprise 4 channel video recorder power cables and connectors in modern lighting." src="https://lh3.googleusercontent.com/aida-public/AB6AXuCNKJC4DucswZeh3WbKzmK5UpXA4Rs2MHAgGiWseKnd15g0383nl7wSUZdUUvZIzE65ZdjlYPe8CTJgGg781X60Br40DLrloRaLOyXVtmF9eEJsptsCFupApF68q3hWpS1FaHsu3WmfIKUOvB5kTdXUqZKxmFPMaZJgPJSzEbyYHQCSWZHLEEt6dGvDTo5HWcOW60l03_2Esv9ekVpYSBOUqjwNjaxvyCqiPNZ35Ck"/>
+</div>
+<div class="p-5 space-y-3">
+<span class="text-label-caps font-label-caps text-on-surface-variant uppercase">Rincian Paket Lengkap:</span>
+<ul class="text-body-sm space-y-1.5 text-on-surface-variant">
+<li class="flex justify-between"><span>DVR Recorder:</span> <span class="font-semibold text-on-surface">4 Channel Full HD</span></li>
+<li class="flex justify-between"><span>Harddisk:</span> <span class="font-semibold text-on-surface">500 GB Surveillance</span></li>
+<li class="flex justify-between"><span>Power Supply:</span> <span class="font-semibold text-on-surface">1 Unit Switching</span></li>
+<li class="flex justify-between"><span>Konektor BNC:</span> <span class="font-semibold text-on-surface">8 Unit High Grade</span></li>
+<li class="flex justify-between"><span>Jack DC Male:</span> <span class="font-semibold text-on-surface">4 Unit</span></li>
+<li class="flex justify-between"><span>Kabel Coaxial:</span> <span class="font-semibold text-on-surface">60 Meter RG59</span></li>
+<li class="flex justify-between"><span>Jasa Instalasi:</span> <span class="text-emerald-700 font-bold">Termasuk</span></li>
+</ul>
+</div>
+</div>
+<div class="p-5 bg-amber-50/60 border-t border-amber-200 space-y-2">
+<div class="flex justify-between items-center text-body-sm font-medium">
+<span class="text-on-surface">Dahua</span>
+<span class="text-secondary font-bold">Rp 3.499.000</span>
+</div>
+<div class="flex justify-between items-center text-body-sm font-medium">
+<span class="text-on-surface">HiLook</span>
+<span class="text-secondary font-bold">Rp 3.599.000</span>
+</div>
+<div class="flex justify-between items-center text-body-sm font-medium">
+<span class="text-on-surface">Hikvision</span>
+<span class="text-secondary font-bold">Rp 4.499.000</span>
+</div>
+<a class="w-full mt-3 block text-center py-2 px-3 rounded bg-amber-500 hover:bg-amber-600 text-primary-container font-extrabold text-label-md font-label-md transition-colors shadow" href="https://wa.me/6282135576655?text=Halo%20SatuAtapNusantara,%20saya%20pesan%20Paket%204%20Kamera%20(Best%20Seller)">
+              Pesan Paket Paling Populer
+            </a>
+</div>
+</div>
+<!-- PAKET 6 KAMERA -->
+<div class="bg-surface-container-lowest rounded-xl border border-outline-variant/40 overflow-hidden shadow-sm flex flex-col justify-between">
+<div>
+<div class="bg-primary-container text-on-primary py-3 px-4 text-center">
+<span class="text-headline-sm font-headline-sm">Paket CCTV 6 Kamera</span>
+</div>
+<div class="p-4 bg-surface-container-lowest border-b border-outline-variant/20 flex justify-center">
+<img class="h-36 object-contain" data-alt="A commercial grade six camera CCTV security equipment kit including six dome and bullet surveillance cameras with an 8-channel DVR recorder unit neatly organized on a clean modern gradient slate surface." src="https://lh3.googleusercontent.com/aida-public/AB6AXuAFcgJIgifZhiLmX0fYw0to0S-W-vo4F3BJ6Avegd6ixNnH6j_hoJW7mVQ0o9NJPnUKdX57PlsEkMeGehj6vGIh5tMzvh_uI-jT81rvJnHS-7JYBQpcRUJw8dXZyiYVSmKueP0LHRf-jByGIrr1mYPtzT3lmBWXohDnA-AKBpxAnxaG1O9kkP917iSPLkU3k5on8Wl64jEC6K-8YnDkjWI09oWP2TnenSPZG3AEDE4"/>
+</div>
+<div class="p-5 space-y-3">
+<span class="text-label-caps font-label-caps text-on-surface-variant uppercase">Rincian Paket Lengkap:</span>
+<ul class="text-body-sm space-y-1.5 text-on-surface-variant">
+<li class="flex justify-between"><span>DVR Recorder:</span> <span class="font-semibold text-on-surface">8 Channel Full HD</span></li>
+<li class="flex justify-between"><span>Harddisk:</span> <span class="font-semibold text-on-surface">500 GB Surveillance</span></li>
+<li class="flex justify-between"><span>Power Supply:</span> <span class="font-semibold text-on-surface">1 Unit Box Central</span></li>
+<li class="flex justify-between"><span>Konektor BNC:</span> <span class="font-semibold text-on-surface">12 Unit High Grade</span></li>
+<li class="flex justify-between"><span>Jack DC Male:</span> <span class="font-semibold text-on-surface">6 Unit</span></li>
+<li class="flex justify-between"><span>Kabel Coaxial:</span> <span class="font-semibold text-on-surface">90 Meter RG59</span></li>
+<li class="flex justify-between"><span>Jasa Instalasi:</span> <span class="text-emerald-700 font-bold">Termasuk</span></li>
+</ul>
+</div>
+</div>
+<div class="p-5 bg-surface-container border-t border-outline-variant/30 space-y-2">
+<div class="flex justify-between items-center text-body-sm font-medium">
+<span class="text-on-surface">Dahua</span>
+<span class="text-secondary font-bold">Rp 5.599.000</span>
+</div>
+<div class="flex justify-between items-center text-body-sm font-medium">
+<span class="text-on-surface">HiLook</span>
+<span class="text-secondary font-bold">Rp 5.699.000</span>
+</div>
+<div class="flex justify-between items-center text-body-sm font-medium">
+<span class="text-on-surface">Hikvision</span>
+<span class="text-secondary font-bold">Rp 6.699.000</span>
+</div>
+<a class="w-full mt-3 block text-center py-2 px-3 rounded bg-secondary-container hover:bg-secondary text-on-secondary text-label-md font-label-md transition-colors" href="https://wa.me/6282135576655?text=Halo%20SatuAtapNusantara,%20saya%20pesan%20Paket%206%20Kamera">
+              Pilih Paket 6 Kamera
+            </a>
+</div>
+</div>
+<!-- PAKET 8 KAMERA -->
+<div class="bg-surface-container-lowest rounded-xl border border-outline-variant/40 overflow-hidden shadow-sm flex flex-col justify-between">
+<div>
+<div class="bg-primary-container text-on-primary py-3 px-4 text-center">
+<span class="text-headline-sm font-headline-sm">Paket CCTV 8 Kamera</span>
+</div>
+<div class="p-4 bg-surface-container-lowest border-b border-outline-variant/20 flex justify-center">
+<img class="h-36 object-contain" data-alt="An enterprise eight camera security surveillance package with multiple commercial grade dome and weather resistant bullet cameras next to a high capacity 8-channel recorder and cabling components set against a bright minimal background." src="https://lh3.googleusercontent.com/aida-public/AB6AXuDue0n1OZ_28aO8UmB2-PEufB3WPhZEucUtDt80AVk2oJ1_go9GuiGv5eh4FEbSMTogGgyLjpU37ZmS-Mk5Hi_xO5kIqU3GvMt9HDT4RWRb8Y7QhOXnjweMCQigvtqW74y5nJe0y0SfYI7gKc19XT2m8TCR-xgJijXi3qbf-YtoJYLzBAwFcB8Y1LvAaUs23aTxAIXNz3S7R0QB8dkS4TSc0jT6GmTrv6VH7bZreZs"/>
+</div>
+<div class="p-5 space-y-3">
+<span class="text-label-caps font-label-caps text-on-surface-variant uppercase">Rincian Paket Lengkap:</span>
+<ul class="text-body-sm space-y-1.5 text-on-surface-variant">
+<li class="flex justify-between"><span>DVR Recorder:</span> <span class="font-semibold text-on-surface">8 Channel Full HD</span></li>
+<li class="flex justify-between"><span>Harddisk:</span> <span class="font-semibold text-on-surface">1 TB Surveillance</span></li>
+<li class="flex justify-between"><span>Power Supply:</span> <span class="font-semibold text-on-surface">1 Unit Box Central</span></li>
+<li class="flex justify-between"><span>Konektor BNC:</span> <span class="font-semibold text-on-surface">16 Unit High Grade</span></li>
+<li class="flex justify-between"><span>Jack DC Male:</span> <span class="font-semibold text-on-surface">8 Unit</span></li>
+<li class="flex justify-between"><span>Kabel Coaxial:</span> <span class="font-semibold text-on-surface">120 Meter RG59</span></li>
+<li class="flex justify-between"><span>Jasa Instalasi:</span> <span class="text-emerald-700 font-bold">Termasuk</span></li>
+</ul>
+</div>
+</div>
+<div class="p-5 bg-surface-container border-t border-outline-variant/30 space-y-2">
+<div class="flex justify-between items-center text-body-sm font-medium">
+<span class="text-on-surface">Dahua</span>
+<span class="text-secondary font-bold">Rp 6.699.000</span>
+</div>
+<div class="flex justify-between items-center text-body-sm font-medium">
+<span class="text-on-surface">HiLook</span>
+<span class="text-secondary font-bold">Rp 6.799.000</span>
+</div>
+<div class="flex justify-between items-center text-body-sm font-medium">
+<span class="text-on-surface">Hikvision</span>
+<span class="text-secondary font-bold">Rp 8.199.000</span>
+</div>
+<a class="w-full mt-3 block text-center py-2 px-3 rounded bg-secondary-container hover:bg-secondary text-on-secondary text-label-md font-label-md transition-colors" href="https://wa.me/6282135576655?text=Halo%20SatuAtapNusantara,%20saya%20pesan%20Paket%208%20Kamera">
+              Pilih Paket 8 Kamera
+            </a>
+</div>
+</div>
+</div>
+<!-- Custom Requirement Callout -->
+<div class="mt-8 p-4 rounded-xl bg-amber-50 border border-amber-200 text-center">
+<p class="text-body-md font-medium text-amber-900">
+          Perlu spesifikasi resolusi lebih tinggi (ColorVu Audio 24 Jam Full Color) atau jumlah titik pemasangan kustom di atas 16-32 kamera?
+          <a class="font-bold underline text-secondary ml-1 hover:text-secondary-container" href="https://wa.me/6282135576655?text=Halo,%20saya%20butuh%20kustom%20spek%20CCTV%20lebih%20dari%208%20titik">Hubungi CS untuk Penawaran Harga Spesial Proyek.</a>
+</p>
+</div>
+</div>
+</section>
+<!-- ================= EDUKASI MANFAAT CCTV ================= -->
+<section class="py-20 bg-background" id="edukasi">
+<div class="max-w-[1200px] mx-auto px-4 lg:px-8">
+<div class="text-center max-w-2xl mx-auto mb-14">
+<span class="text-label-caps font-label-caps text-secondary font-bold uppercase tracking-wider">Investasi Proteksi Aset</span>
+<h2 class="text-headline-lg font-headline-lg text-on-surface mt-2">Mengapa Anda Memerlukan CCTV untuk Properti &amp; Bisnis?</h2>
+<p class="text-on-surface-variant text-body-md mt-2">CCTV bukan lagi sekadar pelengkap, melainkan instrumen vital dalam memitigasi risiko keamanan dan meningkatkan efisiensi operasional harian.</p>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+<div class="p-6 bg-surface-container-lowest rounded-xl border border-outline-variant/40 space-y-3">
+<div class="w-10 h-10 rounded bg-red-100 text-secondary flex items-center justify-center">
+<span class="material-symbols-outlined text-2xl" data-icon="security">security</span>
+</div>
+<h3 class="text-headline-sm font-headline-sm text-on-surface">Pencegahan Kejahatan</h3>
+<p class="text-body-sm text-on-surface-variant">CCTV adalah pencegah yang kuat terhadap tindakan kriminal. Pelaku berpikir dua kali sebelum mencoba melakukan pencurian di area yang terpantau kamera.</p>
+</div>
+<div class="p-6 bg-surface-container-lowest rounded-xl border border-outline-variant/40 space-y-3">
+<div class="w-10 h-10 rounded bg-blue-100 text-blue-900 flex items-center justify-center">
+<span class="material-symbols-outlined text-2xl" data-icon="gavel">gavel</span>
+</div>
+<h3 class="text-headline-sm font-headline-sm text-on-surface">Bukti Hukum Otentik</h3>
+<p class="text-body-sm text-on-surface-variant">Rekaman CCTV beresolusi tajam dapat digunakan sebagai barang bukti valid saat penanganan kasus sengketa bisnis atau investigasi pihak kepolisian.</p>
+</div>
+<div class="p-6 bg-surface-container-lowest rounded-xl border border-outline-variant/40 space-y-3">
+<div class="w-10 h-10 rounded bg-amber-100 text-amber-900 flex items-center justify-center">
+<span class="material-symbols-outlined text-2xl" data-icon="phonelink">phonelink</span>
+</div>
+<h3 class="text-headline-sm font-headline-sm text-on-surface">Pemantauan Jarak Jauh</h3>
+<p class="text-body-sm text-on-surface-variant">Pantau aktivitas toko, gudang, maupun buah hati di rumah secara live kapan saja melalui aplikasi smartphone Android atau iPhone secara gratis.</p>
+</div>
+<div class="p-6 bg-surface-container-lowest rounded-xl border border-outline-variant/40 space-y-3">
+<div class="w-10 h-10 rounded bg-emerald-100 text-emerald-900 flex items-center justify-center">
+<span class="material-symbols-outlined text-2xl" data-icon="sentiment_satisfied">sentiment_satisfied</span>
+</div>
+<h3 class="text-headline-sm font-headline-sm text-on-surface">Ketenangan Pikiran</h3>
+<p class="text-body-sm text-on-surface-variant">Tinggalkan rumah untuk liburan atau kantor saat akhir pekan tanpa rasa cemas, berkat sistem notifikasi alarm pintar dan motion detection.</p>
+</div>
+</div>
+</div>
+</section>
+<!-- ================= TESTIMONI & KREDIBILITAS ================= -->
+<section class="py-20 bg-surface-container-low border-t border-outline-variant/30" id="testimoni">
+<div class="max-w-[1200px] mx-auto px-4 lg:px-8">
+<!-- Counter Stats -->
+<div class="text-center mb-14">
+<div class="inline-block px-4 py-1.5 rounded-full bg-amber-100 text-amber-800 font-label-caps text-label-caps uppercase mb-3">
+          REKAM JEJAK TERBUKTI
+        </div>
+<h2 class="text-display-hero-mobile md:text-display-hero font-bold text-on-surface">1.000+ Instalasi</h2>
+<p class="text-headline-sm font-headline-sm text-on-surface-variant">di Berbagai Kota Besar Seluruh Indonesia</p>
+<p class="text-body-md text-on-surface-variant max-w-xl mx-auto mt-2">Percayakan sistem CCTV Anda kepada kami dengan layanan jasa pasang CCTV murah, rapi, dan bergaransi.</p>
+</div>
+<!-- 3 Testimonial Cards -->
+<div class="grid grid-cols-1 md:grid-cols-3 gap-6 mb-16">
+<div class="bg-surface-container-lowest p-6 rounded-xl border border-outline-variant/40 shadow-sm flex flex-col justify-between">
+<div>
+<div class="flex text-amber-400 mb-3">
+<span class="material-symbols-outlined text-lg" data-icon="star" data-weight="fill">star</span>
+<span class="material-symbols-outlined text-lg" data-icon="star" data-weight="fill">star</span>
+<span class="material-symbols-outlined text-lg" data-icon="star" data-weight="fill">star</span>
+<span class="material-symbols-outlined text-lg" data-icon="star" data-weight="fill">star</span>
+<span class="material-symbols-outlined text-lg" data-icon="star" data-weight="fill">star</span>
+</div>
+<p class="text-body-sm text-on-surface italic mb-6">
+              "Untuk keperluan pemantauan bisnis jatuhnya sangat hemat dibanding beli kamera eceran. Fiturnya canggih, diajari setting sampai bisa di 3 HP keluarga. Teknisi sangat sabar dan rapi."
+            </p>
+</div>
+<div class="flex items-center gap-3 border-t border-outline-variant/20 pt-4">
+<div class="w-10 h-10 rounded-full bg-surface-container flex items-center justify-center font-bold text-on-surface text-label-md">
+              BA
+            </div>
+<div>
+<p class="text-label-md font-label-md text-on-surface">Bpk. Aditya</p>
+<p class="text-meta-time font-meta-time text-on-surface-variant">Owner Restoran - Jakarta Barat</p>
+</div>
+</div>
+</div>
+<div class="bg-surface-container-lowest p-6 rounded-xl border border-outline-variant/40 shadow-sm flex flex-col justify-between">
+<div>
+<div class="flex text-amber-400 mb-3">
+<span class="material-symbols-outlined text-lg" data-icon="star" data-weight="fill">star</span>
+<span class="material-symbols-outlined text-lg" data-icon="star" data-weight="fill">star</span>
+<span class="material-symbols-outlined text-lg" data-icon="star" data-weight="fill">star</span>
+<span class="material-symbols-outlined text-lg" data-icon="star" data-weight="fill">star</span>
+<span class="material-symbols-outlined text-lg" data-icon="star" data-weight="fill">star</span>
+</div>
+<p class="text-body-sm text-on-surface italic mb-6">
+              "Sangat dibantu untuk memilihkan paket 4 kamera yang pas untuk warung makan saya. Yang paling saya suka ada skema Pasang Dulu Baru Bayar, jadi no tipu-tipu. Mantap!"
+            </p>
+</div>
+<div class="flex items-center gap-3 border-t border-outline-variant/20 pt-4">
+<div class="w-10 h-10 rounded-full bg-surface-container flex items-center justify-center font-bold text-on-surface text-label-md">
+              BH
+            </div>
+<div>
+<p class="text-label-md font-label-md text-on-surface">Bpk. Hidayat</p>
+<p class="text-meta-time font-meta-time text-on-surface-variant">Usaha Kuliner - Surabaya</p>
+</div>
+</div>
+</div>
+<div class="bg-surface-container-lowest p-6 rounded-xl border border-outline-variant/40 shadow-sm flex flex-col justify-between">
+<div>
+<div class="flex text-amber-400 mb-3">
+<span class="material-symbols-outlined text-lg" data-icon="star" data-weight="fill">star</span>
+<span class="material-symbols-outlined text-lg" data-icon="star" data-weight="fill">star</span>
+<span class="material-symbols-outlined text-lg" data-icon="star" data-weight="fill">star</span>
+<span class="material-symbols-outlined text-lg" data-icon="star" data-weight="fill">star</span>
+<span class="material-symbols-outlined text-lg" data-icon="star" data-weight="fill">star</span>
+</div>
+<p class="text-body-sm text-on-surface italic mb-6">
+              "Pemasangan kabel di rumah sangat rapi, lewat plafon tidak kelihatan berantakan sama sekali. Ada garansi resmi hardwarenya jadi lebih tenang. Recommended buat perumahan."
+            </p>
+</div>
+<div class="flex items-center gap-3 border-t border-outline-variant/20 pt-4">
+<div class="w-10 h-10 rounded-full bg-surface-container flex items-center justify-center font-bold text-on-surface text-label-md">
+              II
+            </div>
+<div>
+<p class="text-label-md font-label-md text-on-surface">Ibu Ida</p>
+<p class="text-meta-time font-meta-time text-on-surface-variant">Perumahan - Bandung</p>
+</div>
+</div>
+</div>
+</div>
+<!-- Trust Client Badges -->
+<div class="pt-8 border-t border-outline-variant/30 text-center">
+<p class="text-label-caps font-label-caps text-on-surface-variant uppercase tracking-wider mb-6">Kemitraan &amp; Standard Perangkat Terpercaya</p>
+<div class="flex flex-wrap items-center justify-center gap-8 md:gap-14 opacity-75 grayscale hover:grayscale-0 transition-all">
+<span class="text-headline-sm font-extrabold tracking-tight text-on-surface">DAHUA</span>
+<span class="text-headline-sm font-extrabold tracking-tight text-on-surface">HIKVISION</span>
+<span class="text-headline-sm font-extrabold tracking-tight text-on-surface">HiLook</span>
+<span class="text-headline-sm font-extrabold tracking-tight text-on-surface">SEAGATE</span>
+<span class="text-headline-sm font-extrabold tracking-tight text-on-surface">WESTERN DIGITAL</span>
+<span class="text-headline-sm font-extrabold tracking-tight text-on-surface">BGTECH</span>
+</div>
+</div>
+</div>
+</section>
+<!-- ================= FAQ SECTION (INTERAKTIF) ================= -->
+<section class="py-20 bg-background" id="faq">
+<div class="max-w-[860px] mx-auto px-4 lg:px-8">
+<div class="text-center mb-12">
+<span class="text-label-caps font-label-caps text-secondary font-bold uppercase tracking-wider">Tanya Jawab Layanan</span>
+<h2 class="text-headline-lg font-headline-lg text-on-surface mt-2">Pertanyaan Paling Sering Diajukan Seputar Paket Pasang CCTV</h2>
+<p class="text-on-surface-variant text-body-md mt-2">Informasi transparan seputar proses order, kebijakan garansi, dan cakupan layanan teknisi kami.</p>
+</div>
+<!-- FAQ Accordion -->
+<div class="space-y-4" id="faq-accordion">
+<!-- FAQ 1 -->
+<details class="group bg-surface-container-lowest rounded-xl border border-outline-variant/40 p-5 shadow-sm open:border-amber-400">
+<summary class="flex justify-between items-center cursor-pointer list-none font-headline-sm text-headline-sm text-on-surface">
+<span>Melayani Pemasangan CCTV Dimana Saja?</span>
+<span class="material-symbols-outlined transition-transform duration-200 group-open:rotate-180 text-secondary" data-icon="keyboard_arrow_down">keyboard_arrow_down</span>
+</summary>
+<div class="mt-4 pt-4 border-t border-outline-variant/20 text-body-md text-on-surface-variant leading-relaxed">
+            Kami memiliki jaringan jasa pasang CCTV terluas di Indonesia. Sebagian besar kota-kota besar terutama di pulau Jawa &amp; Bali serta kota penting di Sumatera, Kalimantan, dan Sulawesi. Anda dapat berkonsultasi via WhatsApp terlebih dahulu untuk mengecek ketersediaan jadwal tim teknisi di kecamatan lokasi Anda.
+          </div>
+</details>
+<!-- FAQ 2 -->
+<details class="group bg-surface-container-lowest rounded-xl border border-outline-variant/40 p-5 shadow-sm open:border-amber-400">
+<summary class="flex justify-between items-center cursor-pointer list-none font-headline-sm text-headline-sm text-on-surface">
+<span>Kapan Dipasang Setelah Order Dilakukan?</span>
+<span class="material-symbols-outlined transition-transform duration-200 group-open:rotate-180 text-secondary" data-icon="keyboard_arrow_down">keyboard_arrow_down</span>
+</summary>
+<div class="mt-4 pt-4 border-t border-outline-variant/20 text-body-md text-on-surface-variant leading-relaxed">
+            Setelah data pemesanan dikonfirmasi oleh CS, tim teknisi kami akan menjadwalkan instalasi paling cepat <strong>H+1 (satu hari setelah pemesanan)</strong> atau sesuai dengan jadwal kesepakatan waktu luang Anda.
+          </div>
+</details>
+<!-- FAQ 3 -->
+<details class="group bg-surface-container-lowest rounded-xl border border-outline-variant/40 p-5 shadow-sm open:border-amber-400">
+<summary class="flex justify-between items-center cursor-pointer list-none font-headline-sm text-headline-sm text-on-surface">
+<span>Bagaimana Sistem Pembayarannya?</span>
+<span class="material-symbols-outlined transition-transform duration-200 group-open:rotate-180 text-secondary" data-icon="keyboard_arrow_down">keyboard_arrow_down</span>
+</summary>
+<div class="mt-4 pt-4 border-t border-outline-variant/20 text-body-md text-on-surface-variant leading-relaxed">
+            Kami mengutamakan rasa aman konsumen melalui skema <strong>Pasang Dulu Baru Bayar (Tanpa DP)</strong> untuk paket reguler perumahan dan ruko. Pembayaran dapat ditransfer ke rekening resmi perusahaan setelah pekerjaan selesai terpasang dan tayang di layar HP Anda.
+          </div>
+</details>
+<!-- FAQ 4 -->
+<details class="group bg-surface-container-lowest rounded-xl border border-outline-variant/40 p-5 shadow-sm open:border-amber-400">
+<summary class="flex justify-between items-center cursor-pointer list-none font-headline-sm text-headline-sm text-on-surface">
+<span>Apakah Ada Garansi Resmi?</span>
+<span class="material-symbols-outlined transition-transform duration-200 group-open:rotate-180 text-secondary" data-icon="keyboard_arrow_down">keyboard_arrow_down</span>
+</summary>
+<div class="mt-4 pt-4 border-t border-outline-variant/20 text-body-md text-on-surface-variant leading-relaxed">
+            Ya! Semua unit kamera, DVR, dan Harddisk bergaransi resmi <strong>1 hingga 2 tahun</strong> (ganti baru sesuai syarat pabrik). Selain itu, kami memberikan garansi servis maintenance instalasi selama 1 bulan pasca pemasangan.
+          </div>
+</details>
+<!-- FAQ 5 -->
+<details class="group bg-surface-container-lowest rounded-xl border border-outline-variant/40 p-5 shadow-sm open:border-amber-400">
+<summary class="flex justify-between items-center cursor-pointer list-none font-headline-sm text-headline-sm text-on-surface">
+<span>Apa yang Belum Tersedia Didalam Paket?</span>
+<span class="material-symbols-outlined transition-transform duration-200 group-open:rotate-180 text-secondary" data-icon="keyboard_arrow_down">keyboard_arrow_down</span>
+</summary>
+<div class="mt-4 pt-4 border-t border-outline-variant/20 text-body-md text-on-surface-variant leading-relaxed">
+            Paket belum mencakup layar monitor TV (Anda bisa menggunakan TV LED yang ada di rumah lewat kabel HDMI) dan koneksi internet WiFi (jika ingin dipantau online via smartphone). Jika panjang kabel melebihi jatah paket, ada biaya penambahan kabel coaxial per meter yang tertera transparan di nota.
+          </div>
+</details>
+<!-- FAQ 6 -->
+<details class="group bg-surface-container-lowest rounded-xl border border-outline-variant/40 p-5 shadow-sm open:border-amber-400">
+<summary class="flex justify-between items-center cursor-pointer list-none font-headline-sm text-headline-sm text-on-surface">
+<span>Saya Berminat, Bagaimana Proses Ordernya?</span>
+<span class="material-symbols-outlined transition-transform duration-200 group-open:rotate-180 text-secondary" data-icon="keyboard_arrow_down">keyboard_arrow_down</span>
+</summary>
+<div class="mt-4 pt-4 border-t border-outline-variant/20 text-body-md text-on-surface-variant leading-relaxed">
+            Cukup klik tombol WhatsApp di situs ini, informasikan jumlah kamera yang diinginkan beserta alamat lengkap instalasi. Tim Customer Support kami akan segera menyiapkan surat tugas teknisi.
+          </div>
+</details>
+</div>
+</div>
+</section>
+<!-- ================= JANGKAUAN KOTA & GOLDEN CTA BANNER ================= -->
+<section class="bg-primary-container text-on-primary py-16 relative overflow-hidden border-t border-amber-500/20">
+<div class="max-w-[1200px] mx-auto px-4 lg:px-8 relative z-10">
+<!-- Big Gold Luxury Banner -->
+<div class="rounded-2xl bg-gradient-to-r from-amber-500 via-amber-400 to-amber-600 p-8 lg:p-12 text-primary-container shadow-2xl flex flex-col lg:flex-row items-center justify-between gap-8 mb-16">
+<div class="space-y-3 max-w-xl text-center lg:text-left">
+<span class="px-3 py-1 rounded bg-primary-container text-amber-300 font-label-caps text-label-caps uppercase font-bold">
+            HOTLINE RESMI KONSULTASI &amp; ORDER
+          </span>
+<h2 class="text-headline-lg font-headline-lg font-extrabold tracking-tight">Hubungi Tim Keamanan Kami Sekarang</h2>
+<p class="text-body-md font-medium text-primary-container/90">Konsultasikan denah lokasi Anda secara gratis dan peroleh rekomendasi paket paling hemat sesuai anggaran.</p>
+</div>
+<div class="flex flex-col sm:flex-row items-center gap-4 w-full lg:w-auto">
+<a class="w-full sm:w-auto px-6 py-4 rounded-xl bg-primary-container text-on-primary hover:bg-slate-900 transition-all font-label-md text-label-md flex items-center justify-center gap-2 shadow-lg" href="tel:082135576655">
+<span class="material-symbols-outlined text-amber-400 text-xl" data-icon="call">call</span>
+<span>0821-3557-6655</span>
+</a>
+<a class="w-full sm:w-auto px-6 py-4 rounded-xl bg-emerald-600 hover:bg-emerald-700 text-on-primary transition-all font-label-md text-label-md flex items-center justify-center gap-2 shadow-lg" href="https://wa.me/6282135576655?text=Halo%20SatuAtapNusantara,%20saya%20ingin%20tanya%20paket%20pasang%20CCTV">
+<span class="material-symbols-outlined text-xl" data-icon="chat">chat</span>
+<span>Chat WhatsApp Fast-Response</span>
+</a>
+</div>
+</div>
+<!-- Area Coverage Details -->
+<div class="space-y-6">
+<div class="text-center">
+<h3 class="text-headline-md font-headline-md font-bold text-on-primary">Melayani Pemasangan CCTV di Kota-kota Berikut</h3>
+<p class="text-on-primary-container text-body-sm mt-1">Dukungan tim teknisi lapangan yang siap berkunjung ke alamat Anda tanpa repot:</p>
+</div>
+<div class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6 gap-2 text-body-sm text-on-primary-container pt-4 text-center">
+<div class="p-2 rounded bg-surface-container-highest/5 border border-outline-variant/10">Jakarta &amp; Kepulauan</div>
+<div class="p-2 rounded bg-surface-container-highest/5 border border-outline-variant/10">Bogor &amp; Puncak</div>
+<div class="p-2 rounded bg-surface-container-highest/5 border border-outline-variant/10">Depok &amp; Sawangan</div>
+<div class="p-2 rounded bg-surface-container-highest/5 border border-outline-variant/10">Tangerang &amp; BSD</div>
+<div class="p-2 rounded bg-surface-container-highest/5 border border-outline-variant/10">Bekasi &amp; Cikarang</div>
+<div class="p-2 rounded bg-surface-container-highest/5 border border-outline-variant/10">Bandung Raya</div>
+<div class="p-2 rounded bg-surface-container-highest/5 border border-outline-variant/10">Semarang &amp; Ungaran</div>
+<div class="p-2 rounded bg-surface-container-highest/5 border border-outline-variant/10">Solo &amp; Sukoharjo</div>
+<div class="p-2 rounded bg-surface-container-highest/5 border border-outline-variant/10">Yogyakarta &amp; Sleman</div>
+<div class="p-2 rounded bg-surface-container-highest/5 border border-outline-variant/10">Surabaya &amp; Sidoarjo</div>
+<div class="p-2 rounded bg-surface-container-highest/5 border border-outline-variant/10">Malang &amp; Batu</div>
+<div class="p-2 rounded bg-surface-container-highest/5 border border-outline-variant/10">Denpasar &amp; Badung</div>
+<div class="p-2 rounded bg-surface-container-highest/5 border border-outline-variant/10">Cirebon &amp; Indramayu</div>
+<div class="p-2 rounded bg-surface-container-highest/5 border border-outline-variant/10">Serang &amp; Cilegon</div>
+<div class="p-2 rounded bg-surface-container-highest/5 border border-outline-variant/10">Tasikmalaya &amp; Garut</div>
+<div class="p-2 rounded bg-surface-container-highest/5 border border-outline-variant/10">Tegal &amp; Brebes</div>
+<div class="p-2 rounded bg-surface-container-highest/5 border border-outline-variant/10">Kediri &amp; Jombang</div>
+<div class="p-2 rounded bg-surface-container-highest/5 border border-outline-variant/10">Medan &amp; Sekitarnya</div>
+</div>
+</div>
+</div>
+</section>
+<!-- ================= FOOTER ================= -->
+<footer class="legacy-footer" aria-hidden="true">
+<section class="contact-card" aria-labelledby="contact-title">
+<h2 id="contact-title">HUBUNGI KAMI</h2>
+<p>UNTUK ORDER/KONSULTASI</p>
+<div class="contact-actions">
+<a href="tel:082135576655"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6.6 3.5 9 3l2 4.8-2 1.7a14.6 14.6 0 0 0 5.5 5.5l1.7-2 4.8 2-.5 2.4a2 2 0 0 1-2 1.6A15 15 0 0 1 5 5.5a2 2 0 0 1 1.6-2Z"/></svg>0821-3557-6655</a>
+<a href="https://wa.me/6282135576655" target="_blank" rel="noopener noreferrer"><span class="whatsapp-icon" aria-hidden="true"></span>0821-3557-6655</a>
+</div>
+</section>
+<div class="max-w-[1200px] mx-auto px-4 lg:px-8 flex flex-col gap-8">
+<div class="grid grid-cols-1 md:grid-cols-12 gap-8 items-start">
+<!-- Brand & Office -->
+<div class="md:col-span-6 space-y-4">
+<div class="flex items-center gap-3">
+<div class="w-8 h-8 rounded-lg bg-amber-500 flex items-center justify-center text-primary-container">
+<span class="material-symbols-outlined text-xl" data-icon="videocam">videocam</span>
+</div>
+<span class="text-headline-sm font-headline-sm font-bold text-on-primary">SatuAtapNusantara.com</span>
+</div>
+<p class="text-body-sm font-body-sm text-on-primary-container max-w-md">
+            Pusat penyedia solusi terpadu instalasi perangkat kamera CCTV modern untuk residensial, bisnis, manufaktur, dan institusi pemerintahan. Mengedepankan standar kerapihan dan keaslian perangkat.
+          </p>
+<div class="text-body-sm font-body-sm text-on-primary-container">
+<strong class="text-on-primary">Kantor Pusat:</strong> Perum Banjarwijaya, Cluster Asia Blok B26 No.61, Cipondoh, Kota Tangerang 15142.
+          </div>
+</div>
+<!-- Technical Partner -->
+<div class="md:col-span-3 space-y-3">
+<span class="text-label-caps font-label-caps text-on-primary uppercase tracking-wider block">Dukungan Teknis</span>
+<p class="text-body-sm font-body-sm text-on-primary-container">
+            Customer Service &amp; Instalasi Resmi Didukung Oleh:
+          </p>
+<div class="p-3 rounded-lg bg-surface-container-highest/10 border border-outline-variant/20 inline-block">
+<span class="text-headline-sm font-bold text-amber-400">BGTECH</span>
+<span class="block text-label-caps font-label-caps text-on-primary-container">SECURITY SYSTEM SOLUTIONS</span>
+</div>
+</div>
+<!-- Links List -->
+<div class="md:col-span-3 space-y-3">
+<span class="text-label-caps font-label-caps text-on-primary uppercase tracking-wider block">Informasi &amp; Legal</span>
+<ul class="space-y-2">
+<li><a class="text-on-primary-container hover:text-on-primary text-body-sm font-body-sm transition-colors" href="#">Kebijakan Privasi</a></li>
+<li><a class="text-on-primary-container hover:text-on-primary text-body-sm font-body-sm transition-colors" href="#">Syarat &amp; Ketentuan</a></li>
+<li><a class="text-on-primary-container hover:text-on-primary text-body-sm font-body-sm transition-colors" href="#">Sertifikasi Teknisi</a></li>
+<li><a class="text-on-primary-container hover:text-on-primary text-body-sm font-body-sm transition-colors" href="#">Katalog Perangkat CCTV</a></li>
+<li><a class="text-on-primary-container hover:text-on-primary text-body-sm font-body-sm transition-colors" href="#">Pusat Bantuan Legal</a></li>
+</ul>
+</div>
+</div>
+<!-- Copyright Bottom Bar -->
+<div class="pt-6 border-t border-outline-variant/20 flex flex-col sm:flex-row items-center justify-between text-body-sm font-body-sm text-on-primary-container gap-4">
+<p>Â© 2025 SatuAtapNusantara.com - BGTECH Security System Solutions. All rights reserved.</p>
+<div class="flex items-center gap-6">
+<span class="text-on-primary font-bold">Terverifikasi ISO &amp; SNI</span>
+<a class="hover:text-secondary-container transition-colors flex items-center gap-1" href="#beranda">
+<span>Kembali ke Atas</span>
+<span class="material-symbols-outlined text-sm" data-icon="north">north</span>
+</a>
+</div>
+</div>
+</div>
+</footer>
+<footer class="shared-footer" id="kontak">
+  <div class="shared-footer-main">
+    <section class="shared-footer-brand" aria-label="Tentang SatuAtapNusantara.com"><a href="landing.html#top">SatuAtapNusantara<span>.com</span></a><p>Solusi monitoring<br />dan keamanan</p><div class="shared-footer-socials"><a href="https://www.instagram.com/" target="_blank" rel="noopener noreferrer">Instagram</a><a href="https://wa.me/6282135576655" target="_blank" rel="noopener noreferrer">WhatsApp</a></div></section>
+    <nav class="shared-footer-nav" aria-label="Navigasi footer"><h2>Navigasi</h2><ul><li><a href="landing.html#top">Beranda</a></li><li><a href="landing.html#top">Tentang Kami</a></li><li><a href="pasang.html#layanan">Layanan</a></li><li><a href="harga.html">Produk</a></li><li><a href="pilihpaket.html#faq">FAQ</a></li></ul></nav>
+    <nav class="shared-footer-services" aria-label="Layanan footer"><h2>Layanan</h2><ul><li><a href="pasang.html#beranda">CCTV</a></li><li><a href="pasang.html#paket-pasang">Instalasi</a></li><li><a href="pasang.html#layanan">Maintenance</a></li><li><a href="pasang.html#layanan">Monitoring</a></li><li><a href="https://wa.me/6282135576655" target="_blank" rel="noopener noreferrer">Konsultasi</a></li></ul></nav>
+    <section class="shared-footer-contact" aria-label="Hubungi Kami"><h2>Hubungi Kami</h2><a class="shared-footer-phone" href="tel:082135576655">0821-3557-6655</a><p>Seninâ€“Sabtu<br />08.00â€“17.00 WIB</p><p>Tangerang</p></section>
+  </div>
+  <div class="shared-footer-bottom"><span>Â© 2026 SatuAtapNusantara.com</span><div class="shared-footer-legal"><span>Privasi</span><span aria-hidden="true">Â·</span><span>S&amp;K</span><span aria-hidden="true">Â·</span><a href="landing.html#top">Sitemap</a></div></div>
+</footer>
+<a class="floating-whatsapp" href="https://wa.me/6282135576655?text=Halo%2C%20saya%20ingin%20bertanya%20tentang%20layanan%20CCTV" target="_blank" rel="noopener noreferrer" aria-label="Order atau tanya melalui WhatsApp"><span>Order/Tanya Disini</span><span class="floating-whatsapp-icon" aria-hidden="true"></span></a>
+</body></html>
