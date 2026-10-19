@@ -101,6 +101,62 @@
   scroll-margin-top: 18px;
 }
 
+/* Footer standar (identik dengan landing.html) */
+.site-footer {
+  position: relative;
+  margin-top: 42px;
+  padding-top: 54px;
+  border-radius: 35px 35px 0 0;
+  color: #fff;
+  background: linear-gradient(#111214, #0c0d0f);
+}
+
+.footer-main {
+  padding: 38px 24px 46px;
+  text-align: center;
+}
+
+.footer-main h2 {
+  margin: 0 0 24px;
+  font-size: clamp(1.2rem, 2.3vw, 1.75rem);
+  letter-spacing: -.02em;
+}
+
+.city-list {
+  width: min(650px, 100%);
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 13px 28px;
+  margin: 0 auto;
+  padding: 0;
+  list-style: none;
+  text-align: left;
+  color: #d9d9dc;
+  font-size: .9rem;
+}
+
+.city-list li::before {
+  content: "\2022";
+  padding-right: 9px;
+  color: #d2aa32;
+}
+
+.footer-bottom {
+  min-height: 55px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  padding: 12px clamp(22px, 4vw, 40px);
+  color: #111827;
+  background: #ddb978;
+  font-size: .76rem;
+}
+
+.footer-bottom a {
+  font-weight: 700;
+}
+
 @media (max-width: 760px) {
   .contact-card {
     min-height: 250px;
@@ -155,5 +211,58 @@
     width: min(360px, 100%);
     min-height: 53px;
     font-size: 1rem;
+  }
+}
+
+@media (max-width: 760px) {
+  .site-footer {
+    margin-top: 31px;
+    padding-top: 35px;
+    border-radius: 22px 22px 0 0;
+  }
+
+  .footer-main {
+    padding: 27px 17px 31px;
+  }
+
+  .footer-main h2 {
+    margin-bottom: 15px;
+    font-size: .88rem;
+  }
+
+  .city-list {
+    gap: 7px 12px;
+    font-size: .59rem;
+  }
+
+  .city-list li::before {
+    padding-right: 5px;
+  }
+
+  .footer-bottom {
+    min-height: 35px;
+    padding: 8px 16px;
+    font-size: .48rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .footer-main {
+    padding-right: 20px;
+    padding-left: 20px;
+  }
+
+  .footer-main h2 {
+    font-size: 1rem;
+  }
+
+  .city-list {
+    max-width: 340px;
+    font-size: .75rem;
+  }
+
+  .footer-bottom {
+    min-height: 42px;
+    font-size: .62rem;
   }
 }
