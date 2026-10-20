@@ -95,11 +95,11 @@ body .hero h1 { margin: 0; font-size: clamp(2.4rem, 4.7vw, 3.75rem); line-height
 .pay-badge strong span { color: #ffd834; }
 .coverage-content h2 { margin: 0; color: #101114; font-size: 1.25rem; font-weight: 800; letter-spacing: -.035em; }
 .coverage-content > p { margin: 5px 0 17px; color: rgba(16,17,20,.76); font-size: .78rem; }
-.service-grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 10px; margin: 0; padding: 0; list-style: none; }
-.service-grid li { min-height: 72px; display: flex; align-items: center; gap: 11px; padding: 10px 12px; border-radius: 9px; color: #141519; background: #fff; font-size: .82rem; font-weight: 650; border: 1px solid #eef1f5; transition: transform .2s ease, box-shadow .2s ease, border-color .2s ease; }
-.service-grid li:hover { transform: translateY(-2px); box-shadow: 0 6px 16px rgba(25,35,54,.08); border-color: #d8b96d; }
-.service-grid li span:last-child { flex: 1; min-width: 0; }
-.service-icon { width: 36px; height: 36px; display: grid; place-items: center; flex: none; border-radius: 8px; color: var(--gold-light); background: #111214; }
+body .service-grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 10px; margin: 0; padding: 0; list-style: none; }
+body .service-grid li { min-height: 72px; display: flex; align-items: center; gap: 11px; padding: 10px 12px; border-radius: 9px; color: #141519; background: #fff; font-size: .82rem; font-weight: 650; border: 1px solid #eef1f5; transition: transform .2s ease, box-shadow .2s ease, border-color .2s ease; }
+body .service-grid li:hover { transform: translateY(-2px); box-shadow: 0 6px 16px rgba(25,35,54,.08); border-color: #d8b96d; }
+body .service-grid li span:last-child { flex: 1; min-width: 0; }
+body .service-icon { width: 36px; height: 36px; display: grid; place-items: center; flex: none; border-radius: 8px; color: var(--gold-light); background: #111214; }
 .service-icon svg { width: 16px; height: 16px; fill: none; stroke: currentColor; stroke-width: 1.7; stroke-linecap: round; stroke-linejoin: round; }
 .packages-section { padding: 70px 32px 82px; background: var(--paper); text-align: center; }
 .section-heading { display: flex; align-items: center; justify-content: center; gap: 13px; }
@@ -215,8 +215,8 @@ a:focus-visible, summary:focus-visible { outline: 3px solid #e8bc3c; outline-off
   .main-nav { justify-content: center; flex-wrap: wrap; gap: 10px 20px; }
   .coverage-panel { grid-template-columns: 150px 1fr; gap: 22px; padding: 25px; }
   .pay-badge { width: 145px; min-height: 138px; }
-  .service-grid { gap: 8px; }
-  .service-grid li { gap: 7px; padding: 7px; font-size: .7rem; }
+  body .service-grid { gap: 8px; }
+  body .service-grid li { gap: 7px; padding: 7px; font-size: .7rem; }
   .partners-grid { grid-template-columns: repeat(4, minmax(0, 1fr)); }
 }
 @media (max-width: 760px) {
