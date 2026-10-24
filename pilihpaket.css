@@ -204,8 +204,8 @@ body .service-icon { width: 36px; height: 36px; display: grid; place-items: cent
 .support-brand > span { width: 48px; height: 48px; display: grid; place-items: center; border-radius: 13px; color: #111; background: #eab020; font-size: 1.8rem; font-weight: 800; }
 .support-brand strong { display: grid; gap: 2px; font-size: 1.35rem; }
 .support-brand small { color: #e5c456; font-size: .58rem; letter-spacing: .09em; }
-.footer-bottom { min-height: 72px; display: flex; align-items: center; justify-content: space-between; gap: 18px; border-top: 1px solid #242429; color: #8c929e; font-size: .85rem; }
-.footer-bottom a { color: #8c929e; }
+.footer-bottom { min-height: 65px; display: flex; align-items: center; justify-content: space-between; gap: 18px; border-top: 1px solid #242429; color: #8c929e; font-size: .75rem; padding: 0 max(6.5%, calc((100% - 1120px) / 2)); background: transparent; }
+.footer-bottom a { color: #8c929e; font-weight: 400; }
 .footer-bottom a:hover { color: #fff; }
 .copyright-strip { min-height: 54px; display: flex; align-items: center; padding: 0 max(24px, calc((100% - 1120px) / 2)); color: #111827; background: #ddb978; font-size: .95rem; font-weight: 650; }
 a:focus-visible, summary:focus-visible { outline: 3px solid #e8bc3c; outline-offset: 3px; }
